@@ -152,7 +152,7 @@ def test_back_track_after_making_multiple_moves(robot):
     assert state['row'] == 9
     assert state['col'] == 1
 
-def test_back_track_after_making_multiple_moves(robot):
+def test_back_track_all_moves_after_making_multiple_moves(robot):
     robot.move()
     robot.move()
     robot.back_track()
